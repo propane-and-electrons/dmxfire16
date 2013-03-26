@@ -1,2 +1,7 @@
-hardware/shardy.lib
-hardware/shardy.mod
+*.lib
+*.mod
+*.bak
+*.ps
+*.bck
+*.000
+.DS_Store*
