@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 6/22/2013 3:36:42 PM
+PCBNEW-BOARD Version 2 date 6/22/2013 4:11:58 PM
 
 # Created by Pcbnew(2013-03-19 BZR 4004)-stable
 
@@ -10,7 +10,7 @@ EnabledLayers 1FFF8001
 Links 378
 NoConn 0
 Di 24.132539 54.1528 242.7478 150.568661
-Ndraw 41
+Ndraw 42
 Ntrack 1376
 Nzone 0
 BoardThickness 1.6002
@@ -61,7 +61,7 @@ Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
 VisibleElements 7FFFFFFF
-PcbPlotParams (pcbplotparams (layerselection 317751297) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory gerbers/))
+PcbPlotParams (pcbplotparams (layerselection 317751297) (usegerberextensions true) (excludeedgelayer false) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory "C:/Documents and Settings/Administrator/Desktop/dmxfire16-rb/"))
 $EndSETUP
 
 $EQUIPOT
@@ -7157,13 +7157,13 @@ Po 6.35 0
 $EndPAD
 $EndMODULE SIL-6
 $MODULE PP-2H-5MMSCREWTERM
-Po 45.085 121.285 2700 15 51BEEAFE 4CACD37C ~~
+Po 45.085 121.285 2700 15 51C60334 4CACD37C ~~
 Li PP-2H-5MMSCREWTERM
 Sc 4CACD37C
 AR /4C1FDDCF
 Op 0 0 0
 T0 0 9.525 1.016 1.016 2700 0.1016 N I 21 N "P17"
-T1 0 3.175 1.016 1.016 2700 0.1016 N V 21 N "SOLPWR"
+T1 -8.255 4.445 1.016 1.016 3600 0.1016 N V 21 N "SOLPWR"
 DS -7.62 -3.175 -7.62 8.255 0.381 21
 DS -7.62 8.255 7.62 8.255 0.381 21
 DS 7.62 8.255 7.62 -3.175 0.381 21
@@ -8016,6 +8016,11 @@ Ne 7 "/GSCLK"
 Po 3.81 0
 $EndPAD
 $EndMODULE SIL-5
+$TEXTPCB
+Te "shardy 06/13"
+Po 218.44 60.325 1.016 1.016 0.1016 0
+De 15 1 0 Normal
+$EndTEXTPCB
 $TEXTPCB
 Te "-"
 Po 182.88 61.595 1.016 1.016 0.1016 0
@@ -56023,6 +56028,10 @@ $POLYSCORNERS
 184.058112 65.058554 0 0
 183.642 64.780516 0 0
 183.642 59.182 0 0
+212.662106 59.182 0 0
+212.662106 61.468 0 0
+224.217895 61.468 0 0
+224.217895 59.182 0 0
 231.648 59.182 0 0
 231.648 66.802 0 0
 239.268 66.802 0 0
@@ -58211,18 +58220,30 @@ $FILLSEGMENTS
 226.3828 92.5833 226.770924 92.5833
 226.770924 92.5833 227.356358 92.5833
 228.827509 92.5833 229.314199 92.5833
-183.642 59.182 231.648 59.182
-183.642 59.3852 231.648 59.3852
-183.642 59.5884 231.648 59.5884
-183.642 59.7916 231.648 59.7916
-183.642 59.9948 231.648 59.9948
-183.642 60.198 231.648 60.198
-183.642 60.4012 231.648 60.4012
-183.642 60.6044 231.648 60.6044
-183.642 60.8076 231.648 60.8076
-183.642 61.0108 231.648 61.0108
-183.642 61.214 231.648 61.214
-183.642 61.4172 231.648 61.4172
+183.642 59.182 212.662106 59.182
+224.217895 59.182 231.648 59.182
+183.642 59.3852 212.662106 59.3852
+224.217895 59.3852 231.648 59.3852
+183.642 59.5884 212.662106 59.5884
+224.217895 59.5884 231.648 59.5884
+183.642 59.7916 212.662106 59.7916
+224.217895 59.7916 231.648 59.7916
+183.642 59.9948 212.662106 59.9948
+224.217895 59.9948 231.648 59.9948
+183.642 60.198 212.662106 60.198
+224.217895 60.198 231.648 60.198
+183.642 60.4012 212.662106 60.4012
+224.217895 60.4012 231.648 60.4012
+183.642 60.6044 212.662106 60.6044
+224.217895 60.6044 231.648 60.6044
+183.642 60.8076 212.662106 60.8076
+224.217895 60.8076 231.648 60.8076
+183.642 61.0108 212.662106 61.0108
+224.217895 61.0108 231.648 61.0108
+183.642 61.214 212.662106 61.214
+224.217895 61.214 231.648 61.214
+183.642 61.4172 212.662106 61.4172
+224.217895 61.4172 231.648 61.4172
 183.642 61.6204 231.648 61.6204
 183.642 61.8236 231.648 61.8236
 183.642 62.0268 231.648 62.0268
