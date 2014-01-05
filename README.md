@@ -11,6 +11,7 @@ The RS-485 connection is DMX512 compatible with any number of Arduino libraries,
 
 * Arduino compatible
 * Programmable via 6-pin FTDI header or 6-pin ICSP header
+* Three DC load channels switched via MOSFET
 * RS-485 support (DMX512 compatible) via 8P8C connectors
 * Termination resistor and jumper for serial connection
 * All ATMega I/O pins are broken out on the board
