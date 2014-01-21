@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 6/22/2013 4:33:30 PM
+PCBNEW-BOARD Version 2 date 1/20/2014 9:36:44 PM
 
 # Created by Pcbnew(2013-03-19 BZR 4004)-stable
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title "16 channel rs-485 solenoid control board"
-Date "22 jun 2013"
+Date "21 jan 2014"
 Rev "A"
 Comp "seth hardy :: propaneandelectrons.com"
 Comment1 ""
@@ -1926,14 +1926,14 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE D3
 $MODULE DIP-28__300
-Po 206.375 115.57 2700 15 4CB52772 4CACD315 ~~
+Po 206.375 115.57 2700 15 52DDDD27 4CACD315 ~~
 Li DIP-28__300
 Cd 28 pins DIL package, round pads, width 300mil
 Kw DIL
 Sc 4CACD315
 AR /4BF98A3C
 Op 0 0 0
-T0 18.415 3.81 1.016 1.016 3600 0.1016 N V 21 N "IC1"
+T0 18.415 4.445 1.016 1.016 3600 0.1016 N V 21 N "U21"
 T1 13.97 -1.27 1.016 1.016 2700 0.1016 N V 21 N "ATMEGA328"
 DS -19.05 -2.54 19.05 -2.54 0.381 21
 DS 19.05 -2.54 19.05 2.54 0.381 21
