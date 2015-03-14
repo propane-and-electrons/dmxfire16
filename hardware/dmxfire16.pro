@@ -1,4 +1,4 @@
-update=3/14/2015 2:17:15 PM
+update=3/14/2015 3:25:05 PM
 version=1
 last_client=kicad
 [general]
@@ -17,7 +17,7 @@ LibName1=shardy
 version=1
 PageLayoutDescrFile=
 LastNetListRead=dmxfire16.net
-UseCmpFile=1
+UseCmpFile=0
 PadDrill=3.2512
 PadDrillOvalY=3.2512
 PadSizeH=3.64998
@@ -39,7 +39,7 @@ PageLayoutDescrFile=
 PlotDirectoryName=../docs/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 RptD_X=0

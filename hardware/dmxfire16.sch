@@ -3241,8 +3241,6 @@ F 3 "" H 7900 12000 60  0001 C CNN
 	1    7900 12000
 	1    0    0    -1  
 $EndComp
-Text Label 18300 8750 0    60   ~ 0
-CLEAR
 Text Label 8900 11700 2    60   ~ 0
 SOLPWR-
 $Comp
