@@ -9,3 +9,7 @@
 *.dsn
 *.ses
 .DS_Store*
+*.bin
+*.cmp
+*.rules
+*.kicad_pcb-bak
