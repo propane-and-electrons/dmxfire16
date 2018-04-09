@@ -27,3 +27,16 @@ The RS-485 connection is DMX512 compatible with any number of Arduino libraries,
 
 * [Schematic](docs/dmxfire16-schematic.pdf)
 * [Bill of Materials](docs/dmxfire16-BOM.csv)
+
+### DMX Details
+
+* **A** from the MAX-485 is positive signal, and goes to RJ-45 pin 1 / XLR pin 3.
+* **B** from the MAX-485 is negative signal (aka signal invert), and goes to RJ-45 pin 2 / XLR pin 2.
+* Many receivers implement `A-B` in hardware, so if these pins are swapped DMX _is unlikely to work_.
+
+To send DMX data, `CTRLDE` (mapped to Arduino digital pin 6) must be set high:
+
+```
+  pinMode(6, OUTPUT);
+  digitalWrite(6, HIGH);
+```
